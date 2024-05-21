@@ -1,0 +1,31 @@
+[
+    {
+        "path": "/",
+        "name":"home",
+        "redirect":"/homePage",
+        "component":"@/components/home/home.vue",
+        "children":[
+            {
+                "path":"/homePage",
+                "name":"homePage",
+                "component":"@/components/home/homePage.vue"
+            },
+            {
+                "path":"/pageTwo",
+                "name":"pageTwo",
+                "component":"@/components/content/pageTwo.vue"
+            },
+            {
+                "path":"/wordsPage",
+                "name":"wordsPage",
+                "component":"@/components/content/wordsPage.vue"
+            }
+        ]
+    },
+    {
+        "path":"/login",
+        "name":"login",
+        "component":"@/components/login/login.vue"
+        
+    }
+]
